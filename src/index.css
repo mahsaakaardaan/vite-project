@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Zain';
+  src: url('./fonts/Zain/Zain-Regular.ttf');
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  direction: rtl;
+  
+}
+
+* {
+  outline: none;
+  border: none;
+  font-family: 'Zain';
+  max-width: 760px;
+  /* margin: auto; */
+}
