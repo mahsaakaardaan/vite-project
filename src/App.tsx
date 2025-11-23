@@ -11,6 +11,9 @@ import PdpPage from './pages/product/PdpPage';
 import AddEditCategoryPage from './pages/assets/AddEditCategoryPage';
 import SingleOrderPage from './pages/order/SingleOrderPage';
 import Login from './pages/auth/Login';
+import CreateStory from './pages/story/CreateStory';
+import CreateBlog from './pages/blog/CreateBlog';
+import CreateBanner from './pages/banner/CreateBanner';
 
 type Props = {};
 
@@ -34,6 +37,9 @@ function App({}: Props) {
         element={<AddEditCategoryPage />}
       />
       <Route path="/order/:id" element={<SingleOrderPage />} />
+      <Route path="/create-story" element={<CreateStory />} />
+      <Route path="/create-blog" element={<CreateBlog />} />
+      <Route path="/create-banner" element={<CreateBanner />} />
     </Routes>
   );
 }
