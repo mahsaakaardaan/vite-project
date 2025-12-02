@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // const BASE_URL = 'http://localhost:3335/';
-const BASE_URL = 'http://46.34.163.193:3335/';
+// const BASE_URL = 'http://46.34.163.193:3335/';
+const BASE_URL = 'http://v1.mahsaakaardaan.ir/';
 
 axios.defaults.baseURL = BASE_URL;
 axios.defaults.headers.post['Content-Type'] = 'application/json';
